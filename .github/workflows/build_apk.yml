@@ -30,7 +30,7 @@ jobs:
       - name: Install buildozer
         run: |
           pip install --upgrade pip
-          pip install buildozer cython
+          pip install buildozer "cython<3.0"
 
       - name: Download Stockfish for Android (arm64)
         run: |
