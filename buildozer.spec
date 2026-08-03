@@ -9,7 +9,7 @@ source.include_patterns = assets/stockfish
 
 version = 0.1
 
-requirements = python3,kivy==2.2.1,chess,plyer
+requirements = python3,kivy==2.3.1,chess,plyer
 orientation = portrait
 fullscreen = 0
 
